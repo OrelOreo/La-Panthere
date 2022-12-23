@@ -54,7 +54,7 @@ hr {
     -moz-box-sizing: content-box;
     box-sizing: content-box
 }
-
+/*  */
 code {
     font-family: monospace, monospace;
     font-size: 1em
@@ -83,7 +83,6 @@ button,
 html input[type=button],
 input[type=reset],
 input[type=submit] {
-    /* -webkit-appearance: button; */
     cursor: pointer
 }
 
@@ -100,7 +99,7 @@ input::-moz-focus-inner {
 
 
 
-
+/*  */
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
@@ -129,7 +128,6 @@ th {
     padding: 0
 }
 
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
     *,
@@ -182,7 +180,7 @@ th {
         background-color: #fff !important
     }
 }
-
+/*  */
 @font-face {
     font-family: 'Glyphicons Halflings';
     src: url(../fonts/glyphicons-halflings-regular.eot);
@@ -274,7 +272,7 @@ hr {
 [role=button] {
     cursor: pointer
 }
-
+/*  */
 .h1,
 .h2,
 .h3,
@@ -360,7 +358,7 @@ code {
     margin-right: auto;
     margin-left: auto
 }
-
+/*  */
 @media (min-width:768px) {
     .container {
         width: 750px
@@ -440,7 +438,7 @@ code {
         margin-left: 16.66666667%
     }
 }
-
+/*  */
 table {
     background-color: transparent
 }
@@ -508,7 +506,7 @@ output {
     line-height: 1.42857143;
     color: #555
 }
-
+/*  */
 .form-control {
     display: block;
     width: 100%;
@@ -562,14 +560,10 @@ textarea.form-control {
     height: auto
 }
 
-/* input[type=search] {
-    -webkit-appearance: none
-} */
-
 .form-group {
     margin-bottom: 15px
 }
-
+/*  */
 .checkbox,
 .radio {
     position: relative;
@@ -696,7 +690,7 @@ a.btn.disabled {
 .btn-block+.btn-block {
     margin-top: 5px
 }
-
+/*  */
 input[type=button].btn-block,
 input[type=reset].btn-block,
 input[type=submit].btn-block {
@@ -775,7 +769,7 @@ tbody.collapse.in {
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175)
 }
-
+/*  */
 .dropdown-menu>li>a {
     display: block;
     padding: 3px 20px;
@@ -867,6 +861,7 @@ tbody.collapse.in {
 .nav>li.disabled>a {
     color: #777
 }
+/*  */
 
 .nav>li.disabled>a:focus,
 .nav>li.disabled>a:hover {
@@ -893,7 +888,6 @@ tbody.collapse.in {
     margin-bottom: 20px;
     border: 1px solid transparent
 }
-
 @media (min-width:768px) {
     .navbar {
         border-radius: 4px
@@ -919,7 +913,7 @@ tbody.collapse.in {
 .navbar-collapse.in {
     overflow-y: auto
 }
-
+/*  */
 @media (min-width:768px) {
     .navbar-collapse {
         width: auto;
@@ -1020,7 +1014,7 @@ tbody.collapse.in {
     padding-bottom: 10px;
     line-height: 20px
 }
-
+/*  */
 @media (max-width:767px) {
     .navbar-nav .open .dropdown-menu {
         position: static;
@@ -1139,7 +1133,7 @@ a.label:hover {
 .alert-danger hr {
     border-top-color: #e4b9c0
 }
-
+/*  */
 @-webkit-keyframes progress-bar-stripes {
     from {
         background-position: 40px 0
@@ -1197,7 +1191,6 @@ a.label:hover {
     padding-left: 15px
 }
 
-
 .panel>.table:first-child {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px
@@ -1209,7 +1202,7 @@ a.label:hover {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px
 }
-
+/*  */
 
 .panel>.table:first-child>tbody:first-child>tr:first-child td:first-child,
 .panel>.table:first-child>tbody:first-child>tr:first-child th:first-child,
@@ -1285,7 +1278,7 @@ a.label:hover {
 .embed-responsive-16by9 {
     padding-bottom: 56.25%
 }
-
+/*  */
 .close {
     float: right;
     font-size: 21px;
@@ -1307,7 +1300,6 @@ a.label:hover {
 }
 
 button.close {
-    /* -webkit-appearance: none; */
     padding: 0;
     cursor: pointer;
     background: 0 0;
@@ -1404,7 +1396,7 @@ button.close {
     height: 50px;
     overflow: scroll
 }
-
+/*  */
 @media (min-width:768px) {
     .modal-dialog {
         width: 600px;
@@ -1513,7 +1505,7 @@ button.close {
     border-width: 0 5px 5px;
     border-bottom-color: #000
 }
-
+/*  */
 .popover {
     position: absolute;
     top: 0;
@@ -1663,7 +1655,7 @@ button.close {
     border-right-width: 0;
     border-left-color: #fff
 }
-
+/*  */
 .carousel {
     position: relative
 }
@@ -1793,7 +1785,7 @@ button.close {
         bottom: 20px
     }
 }
-
+/*  */
 
 .container:after,
 .container:before,
